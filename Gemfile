@@ -3,7 +3,8 @@ ruby '2.2.1'
 
 # Bundle Bootstrap-sass
 gem 'bootstrap-sass', '3.3.1'
-
+# Bundle Font Awesome 4.5.0
+gem 'font-awesome-sass'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
 # Use sqlite3 as the database for Active Record
