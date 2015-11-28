@@ -9,6 +9,8 @@ gem 'font-awesome-sass'
 gem 'rails', '4.1.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: [:development, :test]
+# Devise 3.4.1 for memberships
+gem 'devise', '3.4.1'
 
 # Use postgresql for Production
 group :production do
