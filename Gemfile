@@ -7,16 +7,21 @@ gem 'bootstrap-sass', '3.3.1'
 gem 'font-awesome-sass'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: [:development, :test]
-# Devise 3.4.1 for memberships
-gem 'devise', '3.4.1'
-
 # Use postgresql for Production
 group :production do
     gem 'pg'
     gem 'rails_12factor'
 end
+
+# Devise 3.4.1 for memberships
+gem 'devise', '3.4.1'
+#Use Stripe for Payment Handling
+gem 'stripe'
+#Use figaro to hide secrets
+gem 'figaro'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '4.0.3'
@@ -30,7 +35,7 @@ gem 'coffee-rails', '4.0.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+# gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
